@@ -51,7 +51,7 @@ public class EngineTest {
 		int rikkinaisetSyl = 2;
 		Engine testiMoottori = new Engine(200, 6, rikkinaisetSyl);
 		int hajoaa = testiMoottori.meneRikki();
-		assertTrue(testiMoottori.getBrokenCylinders() > 2);
+		assertTrue(testiMoottori.getBrokenCylinders() >= 2);
 	}
 
 	@Test
